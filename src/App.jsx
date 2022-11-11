@@ -35,14 +35,18 @@ function App() {
 
   return (
     <div className="app">
-      {!user ? (
+      {/* {!user ? (
         <Login />
       ) : (
         <div className="app__body">
           <Sidebar  messages={messages} />
           <Chat messages={messages} />
         </div>
-      )}
+      )} */}
+      <div className="app__body">
+        <Sidebar messages={messages} />
+        <Chat messages={messages} />
+      </div>
     </div>
   );
 }
