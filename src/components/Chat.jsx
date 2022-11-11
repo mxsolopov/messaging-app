@@ -55,8 +55,7 @@ const Chat = ({ messages }) => {
       <div className="chat__body">
         {messages.map((message, i) => (
           <p
-            className={`chat__message ${
-              message.name === user.displayName && "chat__receiver"
+            className={`chat__message ${"chat__receiver"
             }`}
             key={i}
           >
