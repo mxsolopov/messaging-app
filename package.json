@@ -1,8 +1,6 @@
 {
   "name": "messaging-app-frontend",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "https://mxsolopov.github.io/messaging-app",
   "proxy": "http://localhost:9000",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -43,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
